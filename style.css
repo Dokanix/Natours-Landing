@@ -33,6 +33,7 @@ header {
   background-size: cover;
   background-position: top;
   height: 95vh;
+  margin-bottom: 50px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
 }
 
@@ -118,16 +119,22 @@ header {
 }
 
 main {
-    max-width: 360px;
-    margin: 0 auto;
-    font-size: 16px;
-    color: black;
+  margin: 0 auto;
+  font-size: 1.2em;
+  color: black;
+  padding: 20px;
+  max-width: 70ch;
 }
 
+
 @media only screen and (max-width: 570px) {
-    .header__text-box {
-        font-size: 10px;
-    }
+  .header__text-box {
+    font-size: 10px;
+  }
+
+  main {
+    font-size: 0.9em;
+  }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
